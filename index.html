@@ -1,0 +1,33 @@
+<html>
+    
+<head>
+    <link rel="stylesheet"  href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <section class="overlay">
+    <div class="container full">
+        <div class="col-md-12">   
+            <form class="center"  action="contact.php" method="Post" enctype="multipart/form-data">
+                <div class="form-box">
+                <h1 class="heading">Contact Form</h1>
+                <div class="col-md-12">
+                <input class="form_field" type="text" placeholder="First name" name="firstname" required minlength="2" maxlength="20"></div> 
+                <div class="col-md-12"> 
+                <input class="form_field" type="text" placeholder="Email Address" name="email"></div>  
+                <div class="col-md-12">
+                <input class="form_field" type="text" placeholder="Phone Number" name="number" pattern="[789][0-9]{9}" required minlength="10" maxlength="13"></div> 
+                <div class="col-md-12">
+                <textarea class="form_field" type="text" placeholder="Enter Your here"  rows="4"  name="message" minlength="30" maxlength="500" ></textarea>
+                </div> 
+                <div class="col-md-12">
+                <input class="form_field" type="submit" value="Submit" name="submit">
+                </div>
+                </div>
+            </form>
+        </div>
+       
+    </div>
+    </section>
+</body>
+</html>
