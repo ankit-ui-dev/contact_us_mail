@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    
+    Width:100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color:black;
+    background-image:url("https://images.unsplash.com/photo-1504214208698-ea1916a2195a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9fc7ec2cbf1e7f00746ea9f4810613a&auto=format&fit=crop&w=1500&q=80");
+}
+.overlay
+{
+    width:100%;
+    height: 100%;
+    background: #00000042;
+}
+.center
+{
+    margin:15% 25%;
+    width: 50%;
+}
+.form-box{
+    background:#ffffff2e;
+    height: 400px;
+}
+.heading{
+    text-align: center;
+    margin: 1%;
+    font-size: 30px;
+    color: white;
+    padding: 1%;
+    text-transform: uppercase;
+}
+.form_field{
+    display: block; 
+    width: 100%;
+
+    margin: 1% 0%;
+    padding: 2%;
+    font-size: 14px;
+
+    color: #555;
+    
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+}
